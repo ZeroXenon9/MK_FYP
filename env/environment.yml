@@ -1,0 +1,15 @@
+name: fyp
+channels: [pytorch, nvidia, conda-forge, defaults]
+dependencies:
+  - python=3.10
+  - pytorch=2.4
+  - torchvision=0.19
+  - torchaudio=2.4
+  - pytorch-cuda=11.8
+  - pip
+  - pip:
+      - ultralytics==8.3.24
+      - opencv-python==4.10.0.84
+      - mediapipe==0.10.14
+      - numpy==1.26.4
+      - pyyaml
